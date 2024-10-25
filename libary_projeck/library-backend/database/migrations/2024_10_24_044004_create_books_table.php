@@ -17,6 +17,8 @@ class CreateBooksTable extends Migration
             $table->id(); // Primary key
             $table->string('title'); // Judul buku
             $table->string('author'); // Penulis buku
+            $table->string('category'); // kategori buku
+            $table->string('Publisher'); // penerbit buku
             $table->integer('year'); // Tahun terbit
             $table->text('description')->nullable(); // Deskripsi (opsional)
             $table->timestamps(); // Kolom created_at & updated_at otomatis

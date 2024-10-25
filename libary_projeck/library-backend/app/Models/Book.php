@@ -10,10 +10,7 @@ class Book extends Model
     use HasFactory;
 
     // Daftar atribut yang bisa diisi (fillable)
-    protected $fillable = [
-        'title',
-        'author',
-        'year',
-        'description',
-    ];
+    protected $fillable = ['title', 'author', 'year', 'category', 'publisher'];
 }
+
+

@@ -15,6 +15,8 @@ class BookFactory extends Factory
             'title' => $this->faker->sentence(3), // Judul acak
             'author' => $this->faker->name(), // Penulis acak
             'year' => $this->faker->year(), // Tahun acak
+            'category' => $this->faker->word(), // kategori acak 
+            'Publisher' => $this->faker->company(), //penerbit acak
             'description' => $this->faker->paragraph(), // Deskripsi acak
         ];
     }
